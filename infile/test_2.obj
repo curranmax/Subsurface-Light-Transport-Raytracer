@@ -1,0 +1,66 @@
+material
+diffuse 0 0 0
+reflective 0 0 0
+emitted 70 70 70
+
+material
+diffuse 0.5 0.7 0.7
+reflective 0 0 0
+emitted 0 0 0
+
+material 
+diffuse .81 .81 .69
+reflective 0 0 0
+sigma_s .70 1.22 1.90
+sigma_a .0014 .0025 .0142
+index_of_refraction 1
+emitted 0 0 0
+
+material 
+diffuse 0.1 0.1 0.1
+reflective 0.8 0.8 0.8
+emitted 0 0 0
+
+material 
+diffuse 0.1 0.1 0.1
+reflective 0.8 .1 .1
+emitted 0 0 0
+
+
+
+m 0
+v 20 0 -2
+v 20 0 2
+v 17.50 6 2
+v 17.50 6 -2
+f 1 2 3 4
+
+m 1
+v -10 -1 -10
+v -10 -1 10
+v 10 -1 10
+v 10 -1 -10
+f 5 6 7 8
+
+m 4
+cone -2.75 4 -2.25 0 -1 0 5 .45
+
+m 3
+s 0.3 0 -1 1
+
+m 2
+c -1.5 -1 .5 -1.5 1 .5 .5
+
+m 4
+s 0 -0.6 .5 0.4
+
+background_color 0.2 0.1 0.6
+
+PerspectiveCamera {
+  camera_position    5.3406 2.02057 5.92681
+  point_of_interest  0 0 0
+  up                 0 1 0
+  angle              0.349066
+}
+
+
